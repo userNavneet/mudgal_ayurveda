@@ -11,9 +11,12 @@ import AdminDashboard from './admin/AdminDashboard';
 import './App.css';
 
 function App() {
+  // Set basename based on environment
+  const basename = process.env.NODE_ENV === 'production' ? '/mudgal_ayurveda' : '';
+  
   return (
     <AppProvider>
-      <Router>
+      <Router basename={basename}>
         <div className="App">
           <Navbar />
           <main className="main-content">

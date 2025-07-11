@@ -4,7 +4,7 @@ export const products = [
     name: "Ayurvedic Herbal Shampoo",
     category: "Hair Care",
     price: 299,
-    image: "/images/products/herbal-shampoo.jpg",
+    image: "/mudgal_ayurveda/mudgal_ayurveda/images/products/herbal-shampoo.jpg",
     description: "Natural herbal shampoo with neem and amla for healthy hair growth and dandruff control.",
     ingredients: ["Neem", "Amla", "Hibiscus", "Reetha"],
     benefits: ["Dandruff control", "Hair growth", "Natural shine"],
@@ -17,7 +17,7 @@ export const products = [
     name: "Turmeric Face Wash",
     category: "Face Care",
     price: 199,
-    image: "/images/products/turmeric-face-wash.jpg",
+    image: "/mudgal_ayurveda/mudgal_ayurveda/images/products/turmeric-face-wash.jpg",
     description: "Gentle turmeric face wash with sandalwood for glowing and clear skin.",
     ingredients: ["Turmeric", "Sandalwood", "Rose Water", "Glycerin"],
     benefits: ["Acne control", "Skin brightening", "Anti-inflammatory"],
@@ -30,7 +30,7 @@ export const products = [
     name: "Rose Water Toner",
     category: "Face Care",
     price: 149,
-    image: "/images/products/rose-water-toner.jpg",
+    image: "/mudgal_ayurveda/images/products/rose-water-toner.jpg",
     description: "Pure rose water toner for natural skin hydration and pH balance.",
     ingredients: ["Pure Rose Water", "Glycerin", "Vitamin E"],
     benefits: ["Hydration", "pH balance", "Pore tightening"],
@@ -43,7 +43,7 @@ export const products = [
     name: "Pure Aloe Vera Gel",
     category: "Skin Care",
     price: 179,
-    image: "/images/products/aloe-vera-gel.jpg",
+    image: "/mudgal_ayurveda/images/products/aloe-vera-gel.jpg",
     description: "100% pure aloe vera gel for skin soothing and healing properties.",
     ingredients: ["Pure Aloe Vera", "Vitamin E", "Natural Preservatives"],
     benefits: ["Skin soothing", "Healing", "Moisturizing"],
@@ -56,7 +56,7 @@ export const products = [
     name: "Neem Tulsi Bathing Soap",
     category: "Bath Care",
     price: 89,
-    image: "/images/products/neem-tulsi-soap.jpg",
+    image: "/mudgal_ayurveda/images/products/neem-tulsi-soap.jpg",
     description: "Natural bathing soap with neem and tulsi for antibacterial protection.",
     ingredients: ["Neem", "Tulsi", "Coconut Oil", "Glycerin"],
     benefits: ["Antibacterial", "Skin protection", "Natural cleansing"],
@@ -69,7 +69,7 @@ export const products = [
     name: "Multani Mitti Face Pack",
     category: "Face Care",
     price: 129,
-    image: "/images/products/multani-mitti-pack.jpg",
+    image: "/mudgal_ayurveda/images/products/multani-mitti-pack.jpg",
     description: "Natural clay face pack with multani mitti for deep cleansing and oil control.",
     ingredients: ["Multani Mitti", "Rose Water", "Turmeric", "Neem"],
     benefits: ["Deep cleansing", "Oil control", "Blackhead removal"],
@@ -82,7 +82,7 @@ export const products = [
     name: "Ayurvedic Body D-Tan Pack",
     category: "Body Care",
     price: 249,
-    image: "/images/products/dtan-pack.jpg",
+    image: "/mudgal_ayurveda/images/products/dtan-pack.jpg",
     description: "Natural de-tan pack with orange peel and turmeric for removing sun tan.",
     ingredients: ["Orange Peel", "Turmeric", "Yogurt Powder", "Honey"],
     benefits: ["Tan removal", "Skin brightening", "Exfoliation"],
@@ -95,7 +95,7 @@ export const products = [
     name: "Argan Oil Hair Serum",
     category: "Hair Care",
     price: 399,
-    image: "/images/products/argan-oil-serum.png",
+    image: "/mudgal_ayurveda/images/products/argan-oil-serum.png",
     description: "Premium argan oil serum for damaged hair repair and shine.",
     ingredients: ["Argan Oil", "Vitamin E", "Jojoba Oil", "Rosemary Oil"],
     benefits: ["Hair repair", "Frizz control", "Natural shine"],
@@ -137,20 +137,20 @@ export const testimonials = [
     name: "Priya Sharma",
     text: "Amazing products! My skin has never felt better. The turmeric face wash is my favorite.",
     rating: 5,
-    image: "/images/testimonials/priya-sharma.JPG"
+    image: "/mudgal_ayurveda/images/testimonials/priya-sharma.JPG"
   },
   {
     id: 2,
     name: "Rajesh Kumar",
     text: "Great quality ayurvedic products. The herbal shampoo really helped with my dandruff problem.",
     rating: 5,
-    image: "/images/testimonials/rajesh-kumar.JPG"
+    image: "/mudgal_ayurveda/images/testimonials/rajesh-kumar.JPG"
   },
   {
     id: 3,
     name: "Meera Patel",
     text: "Love the natural ingredients. These products are gentle on the skin and very effective.",
     rating: 4,
-    image: "/images/testimonials/meera-patel.JPG"
+    image: "/mudgal_ayurveda/images/testimonials/meera-patel.JPG"
   }
 ];

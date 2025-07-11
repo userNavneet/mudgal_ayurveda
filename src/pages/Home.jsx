@@ -32,7 +32,7 @@ function Home() {
             </div>
             <div className="hero-image">
               <img 
-                src="/images/hero/ayurvedic-products.png" 
+                src="/mudgal_ayurveda/images/hero/ayurvedic-products.png" 
                 alt="Ayurvedic Products" 
                 className="hero-img"
               />

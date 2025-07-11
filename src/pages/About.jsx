@@ -44,7 +44,7 @@ function About() {
             </div>
             <div className="story-image">
               <img 
-                src="/images/about/ayurvedic-herbs.jpg" 
+                src="/mudgal_ayurveda/images/about/ayurvedic-herbs.jpg" 
                 alt="Traditional Ayurvedic Herbs" 
                 className="story-img"
               />

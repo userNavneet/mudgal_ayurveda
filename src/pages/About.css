@@ -1,0 +1,386 @@
+.about-page {
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.about-hero {
+  background: linear-gradient(135deg, var(--pale-green) 0%, var(--light-green) 100%);
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+  color: var(--primary-green);
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+  color: var(--text-dark);
+  max-width: 600px;
+  margin: 0 auto;
+  opacity: 0.9;
+}
+
+/* Our Story Section */
+.our-story {
+  padding: 4rem 0;
+}
+
+.story-content {
+  align-items: center;
+  gap: 3rem;
+}
+
+.story-text {
+  padding-right: 2rem;
+}
+
+.story-text .section-title {
+  margin-bottom: 2rem;
+}
+
+.story-text p {
+  margin-bottom: 1.5rem;
+  color: var(--text-dark);
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.story-text p:last-child {
+  margin-bottom: 0;
+}
+
+.story-img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(45, 90, 39, 0.2);
+}
+
+/* Mission & Vision */
+.mission-vision {
+  padding: 4rem 0;
+}
+
+.mission-vision-grid {
+  gap: 2rem;
+}
+
+.mission-card,
+.vision-card {
+  padding: 2.5rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.mission-card:hover,
+.vision-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-icon {
+  width: 80px;
+  height: 80px;
+  background: var(--primary-green);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  color: white;
+}
+
+.mission-card h3,
+.vision-card h3 {
+  color: var(--primary-green);
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.mission-card p,
+.vision-card p {
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+/* Our Values */
+.our-values {
+  padding: 4rem 0;
+}
+
+.values-grid {
+  margin-top: 3rem;
+}
+
+.value-item {
+  text-align: center;
+  padding: 2rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(45, 90, 39, 0.1);
+  transition: all 0.3s ease;
+}
+
+.value-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(45, 90, 39, 0.2);
+}
+
+.value-icon {
+  width: 70px;
+  height: 70px;
+  background: var(--pale-green);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  color: var(--primary-green);
+}
+
+.value-item h4 {
+  color: var(--primary-green);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.value-item p {
+  color: var(--gray-medium);
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* Certifications */
+.certifications {
+  padding: 4rem 0;
+}
+
+.certifications-content {
+  text-align: center;
+}
+
+.certifications-grid {
+  margin-top: 2rem;
+}
+
+.cert-item {
+  padding: 2rem 1rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(45, 90, 39, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.cert-item:hover {
+  transform: translateY(-3px);
+}
+
+.cert-icon {
+  width: 60px;
+  height: 60px;
+  background: var(--accent-green);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  color: white;
+}
+
+.cert-item h4 {
+  color: var(--primary-green);
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.cert-item p {
+  color: var(--gray-medium);
+  font-size: 0.9rem;
+}
+
+/* Contact Information */
+.contact-info {
+  padding: 4rem 0;
+}
+
+.contact-grid {
+  margin-top: 2rem;
+}
+
+.contact-item {
+  text-align: center;
+  padding: 2rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(45, 90, 39, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.contact-item:hover {
+  transform: translateY(-3px);
+}
+
+.contact-icon {
+  width: 70px;
+  height: 70px;
+  background: var(--primary-green);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  color: white;
+}
+
+.contact-item h4 {
+  color: var(--primary-green);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.contact-item p {
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+/* Call to Action */
+.about-cta {
+  padding: 4rem 0;
+  color: white;
+}
+
+.cta-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.cta-description {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cta-buttons .btn {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-outline {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.btn-outline:hover {
+  background: white;
+  color: var(--primary-green);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .story-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .story-text {
+    padding-right: 0;
+    order: 2;
+  }
+
+  .story-text p {
+    font-size: 1rem;
+  }
+
+  .mission-vision-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .values-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .certifications-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-title {
+    font-size: 2rem;
+  }
+
+  .cta-description {
+    font-size: 1rem;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cta-buttons .btn {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-hero {
+    padding: 2rem 0;
+  }
+
+  .about-hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .our-story,
+  .mission-vision,
+  .our-values,
+  .certifications,
+  .contact-info,
+  .about-cta {
+    padding: 2rem 0;
+  }
+
+  .value-item,
+  .contact-item {
+    padding: 1.5rem;
+  }
+
+  .mission-card,
+  .vision-card {
+    padding: 2rem;
+  }
+
+  .values-grid {
+    grid-template-columns: 1fr;
+  }
+}
